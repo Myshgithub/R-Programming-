@@ -40,3 +40,14 @@ print (dim(Auto11))
 
 str(Auto11)
 
+Task1
+Read the csv file(FEMADeclarations.csv) and Load it to create the Dataset:
+> Auto=read.csv("C:\\Users\\AdminSh\\Documents\\PHD2016\\R Programming, Project\\Data files\\data\\data\\FEMADeclarations.csv")
+> dim(Auto)
+[1] 48322 18
+> Auto=na.omit(Auto)
+> Auto11= filter(Auto, State=="LA") #Just considering Louisiana
+> dim(Auto11)
+[1] 1438 18
+> fix(Auto11)
+
