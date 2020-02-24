@@ -22,3 +22,21 @@ R programming class on Coursera,  taught by Roger Peng, Jeff Leek Brian Caffo
 Software for Data Analysis: Programming with R (Statistics and Computing) by John M. Chambers (Springer) 
 S Programming (Statistics and Computing) by Brian D. Ripley and William N. Venables (Springer) 
 Programming with Data: A Guide to the S Language by John M. Chambers (Springer) 
+
+# R Project and Code:
+This is a sample #R Skill R Skill Assessment Project Report for Research Assistants Position
+
+#(Task1):
+print("Hello")
+
+#********************************************************************
+Auto=read.csv("C:\\Users\\AdminSh\\Documents\\PHD2016\\R Programming, Project\\Data files\\data\\data\\FEMADeclarations.csv")
+Auto=na.omit(Auto)
+print(dim(Auto))
+
+Auto11= filter(Auto, Auto$State=="LA")
+fix(Auto11)
+print (dim(Auto11))
+
+str(Auto11)
+
